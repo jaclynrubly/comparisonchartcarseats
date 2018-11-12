@@ -1,0 +1,100 @@
+table {
+  border-spacing: 5px 0px;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 30px auto;
+}
+
+td {
+  width: 180px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #DDD;
+  border-top: none;
+  line-height: 140%;
+}
+
+td.better {
+  border-left: 4px solid #EEAA00;
+  border-right: 4px solid #EEAA00;
+}
+
+td.best {
+  border-left: 4px solid #e63c2f;
+  border-right: 4px solid #e63c2f;
+}
+
+.highlight {
+  color: #FFF;
+  font-size: 16px;
+}
+.highlight td {
+  border: none;
+  border-radius: 10px 10px 0 0;
+  font-size: 13px;
+  padding: 15px 20px;
+}
+.highlight strong {
+  display: block;
+  font-size: 18px;
+}
+.highlight .most {
+  background: #e63c2f;
+  color: #FFF;
+}
+.highlight .good {
+  background: #EECC00;
+}
+.highlight .better {
+  background: #EEAA00;
+}
+.highlight td.best {
+  background: #e63c2f;
+  padding: 0;
+  border-radius: 0;
+}
+.highlight .best div {
+  display: block;
+  padding: 15px 20px;
+  background: #e63c2f;
+  border-radius: 10px 10px 0 0;
+}
+.highlight .garbage {
+  background: none;
+}
+
+.garbage {
+  background: #F3F3F3;
+}
+
+.fa-check {
+  color: #009900;
+  font-size: 24px;
+}
+
+.fa-times {
+  color: #CC0000;
+  font-size: 24px;
+}
+
+.images {
+  vertical-align: top;
+}
+.images td {
+  border-top: 1px solid #DDD;
+}
+.images h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+.images svg {
+  color: #EEAA00;
+}
+
+img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: auto;
+}
